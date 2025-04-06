@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { cn } from "../lib/utils";
-import { Textarea } from "./ui/textarea";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -60,12 +59,9 @@ message: ${message}`;
           <Label className="text-gray-400" htmlFor="contactnumber">Contact Number</Label>
           <Input id="contactnumber" placeholder="Enter your phone number" type="tel" onChange={handleChange} required />
         </LabelInputContainer>
-
-       
-
         <LabelInputContainer className="mb-8">
           <Label className="text-gray-400" htmlFor="message">Message</Label>
-          <Textarea id="message" placeholder="Enter your Message" type="string" onChange={handleChange} required />
+          <Input id="message" placeholder="Enter your Message" type="string" onChange={handleChange} required />
         </LabelInputContainer>
         
 

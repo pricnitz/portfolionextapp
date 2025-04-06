@@ -10,7 +10,6 @@ import Sociallinks from "./Components/Sociallinks";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-    
       <section id="home" className="flex flex-col items-center justify-center min-h-screen relative w-full">
         <video autoPlay loop muted  playsInline  className="absolute top-0 left-0 w-full h-full object-cover z-[-1] blur-sm " >
           <source src="/banners/banner.mp4" type="video/mp4" />
