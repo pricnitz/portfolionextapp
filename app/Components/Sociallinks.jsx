@@ -15,7 +15,7 @@ export default function Sociallinks() {
           icon: (
             <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://www.linkedin.com/in/nitesh-ahirwar-pricnitz",
         },
     
         {
@@ -23,14 +23,14 @@ export default function Sociallinks() {
           icon: (
             <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://www.facebook.com/pricnitz",
         },
         {
           title: "instagram",
           icon: (
             <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://www.instagram.com/pricnitz",
         },
     
         {
@@ -38,7 +38,7 @@ export default function Sociallinks() {
           icon: (
             <IconBrandWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://api.whatsapp.com/send/?phone=+918109653732&text=Hey",
         },
     
         {
@@ -46,14 +46,14 @@ export default function Sociallinks() {
           icon: (
             <IconBrandTelegram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://t.me/pricnitz",
         },
         {
           title: "GitHub",
           icon: (
             <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "#",
+          href: "https://github.com/pricnitz",
         },
       ];
   return (
