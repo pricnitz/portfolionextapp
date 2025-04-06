@@ -43,7 +43,7 @@ export default function Contactsection() {
                       
                         <div className="flex items-center gap-4">
                             <div className="bg-white/10 rounded-full">
-                                <i className="ri-map-pin-line text-white text-xl"></i>
+                                <i className="ri-map-pin-line text-white text-xl p-3"></i>
                             </div>
                             <div>
                                 <p className="text-sm text-gray-400">Location</p>
